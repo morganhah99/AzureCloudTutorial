@@ -1,0 +1,16 @@
+h1{
+	text-align:center;
+}
+article{
+	padding-top:30px;
+}
+div{
+	height:200px;
+	width:75%;
+}
+img{
+	max-width:100%;
+}
+#space{
+	padding-top: 275px;
+}
