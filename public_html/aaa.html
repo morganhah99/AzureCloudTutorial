@@ -3,6 +3,9 @@
 	<title>AAA Testing</title>
 	<link rel = "stylesheet" href="styles.css">
 	<link rel="stylesheet" href="aaa.css">
+	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
 <body>
 	<h1>AAA Testing</h1>
@@ -17,7 +20,8 @@
                         <a href="glossary.html">Glossary</a>
                         <a href="principles.html">OOP</a>
                         <a href="pylint.html">Pylint</a>
-			<a href="aaa.html" class="end">AAA Testing</a>
+			<a href="aaa.html">AAA Testing</a>
+			<a href="factory.html" class="end">Factory Method</a>
 	 </div>
 	<br>
 	<article>
@@ -32,16 +36,16 @@
 		</ol>
 	
 		<h2>Unit Test Example</h2>
-		<div>
 			<img src="../images/aaa.png" alt ="aaa example">
-		</div>
-		<p id ="top-pad">Example of a unit test, testing the addition operation on a calculator program</p>
+			<div id="top-pad">
+		<p>Example of a unit test, testing the addition operation on a calculator program</p>
 		<ol>
 			<li>The arrange step creates a variable named "my_numbers" with the values of 1.0 and 2.0. The next line creates an Addition object instantiating the values from "my_numbers" to it and
 				assigning it to the variable, "addition".</li>
 			<li>The act step calls the compute() method from the Addition class which contains the code to perform addition with given values.</li>
 			<li>The assert step verifies that the result from the Addition object invoking the compute() method with the values of 1.0 and 2.0 equals 3.0</li>`
 		</ol>
+		</div>
 	</article>
 </body>
 </html>
